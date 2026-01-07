@@ -119,6 +119,7 @@ main {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
+	flex: 1;
 }
 
 .container img {
@@ -298,7 +299,7 @@ main {
 	background-color: #FEFEFE6B;
 	padding-block: 37.5px;
 	margin-inline: 19.5px;
-	width: 330px;
+	width: 400px;
 	padding-inline: 22.5px;
 	display: flex;
 	flex-direction: column;
@@ -309,6 +310,7 @@ main {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
+	flex: 1;
 }
 
 .container img {
@@ -500,6 +502,7 @@ main {
   backdrop-filter: blur(20px);
   border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
+	flex: 1;
 }
 
 .container img {
