@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-	--black: #234158;
-	--white: #fefefe;
+	--black: #fefefe;
+	--white: #1a1a2e;
+	--transparent: #1a1a2e6B;
 }
 
 
@@ -31,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  background: linear-gradient(135deg, #f0f0f4 0%, #d9def3 50%, #a1b7ee 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #3d2c3d 50%, #ff6b8b 100%);
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -105,21 +106,21 @@ main {
 
 .container {
 	margin-top: 15px;
-	background-color: #FEFEFE6B;
+	background-color: var(--transparent);
 	padding-block: 25px;
 	margin-inline: 13px;
 	width: 220px;
 	padding-inline: 15px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	text-align: left;
+	align-items: center;
 	border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
-	flex: 1;
+  flex: 1;
 }
 
 .container img {
@@ -196,7 +197,7 @@ main {
 
 
 .contact-container section {
-	background-color: #FEFEFEBD;
+	background-color: #1a1a2eBD;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -222,7 +223,7 @@ td {
 
 @media(min-width: 700px) {
 	body {
-  background: linear-gradient(135deg, #f0f0f4 0%, #d9def3 50%, #a1b7ee 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #3d2c3d 50%, #ff6b8b 100%);
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -296,10 +297,10 @@ main {
 
 .container {
 	margin-top: 22.5px;
-	background-color: #FEFEFE6B;
+	background-color: var(--transparent);
 	padding-block: 37.5px;
 	margin-inline: 19.5px;
-	width: 400px;
+	width: 330px;
 	padding-inline: 22.5px;
 	display: flex;
 	flex-direction: column;
@@ -310,7 +311,7 @@ main {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
-	flex: 1;
+  flex: 1;
 }
 
 .container img {
@@ -387,7 +388,7 @@ main {
 
 
 .contact-container section {
-	background-color: #FEFEFEBD;
+	background-color: #1a1a2eBD;
 	padding: 30px;
 	display: flex;
 	flex-direction: column;
@@ -414,7 +415,7 @@ td {
 
 @media (min-width: 1700px) {
 	body {
-  background: linear-gradient(135deg, #f0f0f4 0%, #d9def3 50%, #a1b7ee 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #3d2c3d 50%, #ff6b8b 100%);
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -488,7 +489,7 @@ main {
 
 .container {
 	margin-top: 30px;
-	background-color: #FEFEFE6B;
+	background-color: var(--transparent);
 	padding-block: 50px;
 	margin-inline: 26px;
 	width: 700px;
@@ -502,7 +503,6 @@ main {
   backdrop-filter: blur(20px);
   border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
-	flex: 1;
 }
 
 .container img {
@@ -579,7 +579,7 @@ main {
 
 
 .contact-container section {
-	background-color: #FEFEFEBD;
+	background-color: #1a1a2eBD;
 	padding: 40px;
 	display: flex;
 	flex-direction: column;
